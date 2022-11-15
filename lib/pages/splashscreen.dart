@@ -44,12 +44,19 @@ class _SplashScreen extends State<SplashScreen> {
               height: 24.0,
             ),
             Text(
-              "SAHRUL APP",
+              "Tulisan Kabar",
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
                 fontSize: 30.0,
               ),
+            ),
+            Text(
+              "Aplikasi baca koran online",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold),
             )
           ],
         ),

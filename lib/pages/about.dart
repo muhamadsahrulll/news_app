@@ -25,7 +25,7 @@ class _tentangState extends State<tentang> {
                     image: new DecorationImage(
                         fit: BoxFit.fill,
                         image: new AssetImage("lib/assets/skizo.jpg")))),
-            new Text("Sahrul App", textScaleFactor: 1.5),
+            new Text("Tulisan Kabar", textScaleFactor: 1.5),
             Text("Nama : Muhamad Sahrul Syabani"),
             SizedBox(
               height: 5,

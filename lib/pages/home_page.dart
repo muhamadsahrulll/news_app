@@ -17,7 +17,10 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _title() {
-    return const Text('APP SAHRUL');
+    return const Text(
+      'Tulisan Kabar',
+      textAlign: TextAlign.center,
+    );
   }
 
   Widget _nama() {
@@ -42,7 +45,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: _title(),
+        title: new Center(
+          child: _title(),
+        ),
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.newspaper_rounded),
+        ),
         automaticallyImplyLeading: false,
         actions: <Widget>[
           PopupMenuButton(itemBuilder: (context) {

@@ -81,7 +81,6 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "Selamat Datang di Sahrul App",
+              "Selamat Datang di Tulisan Kabar",
               style: TextStyle(fontSize: 30),
             ),
             Image.asset(
