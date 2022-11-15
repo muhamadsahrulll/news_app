@@ -1,6 +1,7 @@
 # uts_app1
 
-A new Flutter project.
+NEWS APP with Login and Register
+Maap kalo UI nya jelek >///<
 
 ## Getting Started
 
